@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%); 
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .profile-card {
+    background-color: hsl(0, 0%, 12%); 
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 375px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 20%); 
+    margin-bottom: 23px;
+  }
+  
+  .profile-name {
+    font-size: 1.4rem;
+    font-weight: 700; 
+    margin-bottom: 5px;
+  }
+  
+  .location {
+    font-size: 0.9rem;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 25px;
+  }
+  
+  .bio {
+    font-size: 0.85rem;
+    color: hsl(0, 0%, 70%); 
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .button {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%); 
+    background-color: hsl(0, 0%, 20%); 
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px; 
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: hsl(75, 94%, 57%); 
+    color: hsl(0, 0%, 8%); 
+  }
+  
+  .button.github {
+    background-color: hsl(75, 94%, 57%); 
+    color: hsl(0, 0%, 8%); 
+  }
+  
+  .attribution{
+    font-size: 10px;
+    position: absolute;
+    bottom: 6%;
+    color: rgb(126, 126, 126);
+  }
+  
+  
